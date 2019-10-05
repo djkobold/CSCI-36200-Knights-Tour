@@ -1,0 +1,164 @@
+Script started on Thu 15 Feb 2018 05:06:42 PM EST
+]0;dkobold@tesla:~/CSCI362[?1034h[dkobold@tesla CSCI362]$ make
+g++ -o tour tour.hpp tour.cpp node.cpp nextMove.cpp warnsdoff.cpp initEntry.cpp stackguess.cpp
+]0;dkobold@tesla:~/CSCI362[dkobold@tesla CSCI362]$ ./tour
+
+Welcome to KNIGHTS TOUR!
+
+__________________________________________
+INITIAL POSITION ENTRY MENU:
+(1) Add new entry
+(2) View current entries
+(3) Delete entry
+(4) Modify entry
+(8) Begin Knights Tour (no Detail)
+(9) Begin Knights Tour (w/ Detail)
+1
+Enter initial X POSITION:
+2
+Enter initial Y POSITION:
+3
+Confirm initial position:
+(2,3) (1)Yes or (2)No
+1
+
+__________________________________________
+INITIAL POSITION ENTRY MENU:
+(1) Add new entry
+(2) View current entries
+(3) Delete entry
+(4) Modify entry
+(8) Begin Knights Tour (no Detail)
+(9) Begin Knights Tour (w/ Detail)
+1
+Enter initial X POSITION:
+4
+Enter initial Y POSITION:
+5
+Confirm initial position:
+(4,5) (1)Yes or (2)No
+1
+
+__________________________________________
+INITIAL POSITION ENTRY MENU:
+(1) Add new entry
+(2) View current entries
+(3) Delete entry
+(4) Modify entry
+(8) Begin Knights Tour (no Detail)
+(9) Begin Knights Tour (w/ Detail)
+1
+Enter initial X POSITION:
+6
+Enter initial Y POSITION:
+7
+Confirm initial position:
+(6,7) (1)Yes or (2)No
+1
+
+__________________________________________
+INITIAL POSITION ENTRY MENU:
+(1) Add new entry
+(2) View current entries
+(3) Delete entry
+(4) Modify entry
+(8) Begin Knights Tour (no Detail)
+(9) Begin Knights Tour (w/ Detail)
+3
+Initial Locations Entered:
+(2,3)
+(4,5)
+(6,7)
+Enter X POSITION of entry to be deleted:
+4
+Enter Y POSITION of entry to be deleted:
+5
+Confirm entry to be deleted:
+(4,5) (1)Yes or (2)No
+1
+Entry deleted.
+
+__________________________________________
+INITIAL POSITION ENTRY MENU:
+(1) Add new entry
+(2) View current entries
+(3) Delete entry
+(4) Modify entry
+(8) Begin Knights Tour (no Detail)
+(9) Begin Knights Tour (w/ Detail)
+1
+Enter initial X POSITION:
+5
+Enter initial Y POSITION:
+4
+Confirm initial position:
+(5,4) (1)Yes or (2)No
+1
+
+__________________________________________
+INITIAL POSITION ENTRY MENU:
+(1) Add new entry
+(2) View current entries
+(3) Delete entry
+(4) Modify entry
+(8) Begin Knights Tour (no Detail)
+(9) Begin Knights Tour (w/ Detail)
+2
+Initial Locations Entered:
+(2,3)
+(6,7)
+(5,4)
+
+__________________________________________
+INITIAL POSITION ENTRY MENU:
+(1) Add new entry
+(2) View current entries
+(3) Delete entry
+(4) Modify entry
+(8) Begin Knights Tour (no Detail)
+(9) Begin Knights Tour (w/ Detail)
+8
+Entry process terminated
+
+__________________________________________
+KNIGHTS TOUR Starting at (2,3)
+
+
+[55][14][31][58][01][16][21][34]
+[30][59][56][15][32][35][02][17]
+[13][54][61][00][57][20][33][22]
+[60][29][44][49][36][63][18][03]
+[45][12][53][62][19][48][23][38]
+[28][43][50][47][52][37][04][07]
+[11][46][41][26][09][06][39][24]
+[42][27][10][51][40][25][08][05]
+
+__________________________________________
+KNIGHTS TOUR Starting at (6,7)
+
+
+[31][12][29][46][33][14][51][38]
+[28][47][32][13][50][39][34][15]
+[11][30][49][60][45][52][37][40]
+[48][27][58][53][62][43][16][35]
+[57][10][61][44][59][36][41][18]
+[26][23][54][63][42][17][02][05]
+[09][56][21][24][07][04][19][00]
+[22][25][08][55][20][01][06][03]
+
+__________________________________________
+KNIGHTS TOUR Starting at (5,4)
+
+
+[63][30][09][58][25][28][07][04]
+[10][57][32][29][08][05][22][27]
+[31][62][59][24][33][26][03][06]
+[56][11][36][61][54][23][34][21]
+[37][60][55][52][35][46][17][02]
+[12][51][40][47][00][53][20][45]
+[41][38][49][14][43][18][01][16]
+[50][13][42][39][48][15][44][19]
+]0;dkobold@tesla:~/CSCI362[dkobold@tesla CSCI362]$ exit
+exit
+
+Script done on Thu 15 Feb 2018 05:07:20 PM EST
